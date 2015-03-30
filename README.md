@@ -5,18 +5,18 @@ I'm Daniel, and this exercise was sent to me by Sara Velázquez (Medellín).
 If you have any questions or comments, you can contact me at:
 email@danielbernal.co
 
-Or checkout my website & profile at
+Or have a look at my website
 http://danielbernal.co
 
 Due to personal time constraints I'm not incluiding out unit/e2e tests.
 
-Hope to hear from you!
+Hope to hear from you,
 
--
 Daniel
+-
 
 
-## Overview
+
 
 
 # Huge Navigation Exercise
