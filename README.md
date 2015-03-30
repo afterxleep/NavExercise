@@ -2,13 +2,14 @@
 
 I'm Daniel, and this exercise was sent to me by Sara Velázquez (Medellín).
 
-If you have any questions or comments, you can contact me at:
-email@danielbernal.co
+If you have any questions or comments, feel free to contact me at:
+email@danielbernal.co or via Skype (afterxleep)
 
-Or have a look at my website
+I also have a personal website where you can find more contact options
 http://danielbernal.co
 
 Due to personal time constraints I'm not incluiding out unit/e2e tests.
+
 
 Hope to hear from you,
 
