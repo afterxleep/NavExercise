@@ -78,7 +78,7 @@ Measurements are specified in pixels. Dimensions are fluid unless specified.
 * On click, if item contains other items, Secondary Navigation appears (see Desktop, Secondary Navigation).
 * Menu appears containing Secondary Navigation.
 * Translucent mask appears over content, behind menu.
-* On hover in, Secondary Navigation changes color (magenta/light gray).
+* On hover in, Secondary Navigation changes color (magenta/light gray). 
 * On click, Secondary navigates to a new page.
 * On click outside of menu, menu and mask are hidden.
 

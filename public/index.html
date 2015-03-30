@@ -1,10 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
 <head>
-  <title>HUGE NavExercise</title>
-  <link rel="stylesheet" href="/styles/main.css">
+    <meta charset="utf-8">
+    <meta name="author" content="Daniel Bernal [afterxleep.com]">
+    <meta name="description" content="A Quick Coding Exercise for Huge Inc.">
+    <!--<meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no, target-densitydpi=device-dpi">-->
+    <title>HUGE NavExercise</title>
+    <link rel="stylesheet" href="/styles/main.css">
 </head>
+
+<!-- Add class  to display side menu -->
 <body>
-<h1>Hello.</h1>
+    <section id="app">
+	    
+	    <header>
+	        <h1>HUGE</h1>
+			<a href="#" id="mobile-menu-btn" class="test" role="button"></a>
+		    <nav role="navigation">
+		    </nav>
+	    </header>
+	
+		<!-- Add class overlay to display a transparent overlay over content -->
+		<main>
+	
+		    <section id="hero">
+			    <div class="hero-image"></div>
+			    <div class="hero-text"><h2>Look ma, no jQuery!</h2></div>
+		    </section>
+		
+		    <article>
+		        <p>Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+		</article>
+		</main>
+	
+		<footer> 
+			   <p>&copy; 2014 Huge. All rights reserved</p>
+		</footer>
+
+    </div>    
+    <script src="scripts/utilsModule.js"></script>
+	<script src="scripts/navModule.js"></script>
+    <script>
+		var Utils = new Utils();
+		Utils.httpRequest("GET", "api/nav.json").then(function(data) {
+			var Nav = new Navigation(data.items);			
+		});
+
+	</script>
 </body>
 </html>
